@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(12, 89, 243);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 80px;
+    font-size: 45px;
+    text-shadow:3px 3px 5px #131212 ;
+}
+
+.weather{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+     margin-top:100px ;
+     text-shadow:1px 1px 3px #131212 ;
+
+}
+
+.degree-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.degree{
+    margin-right: 5px;
+    font-size: 35px;
+}
+span{
+    font-size: 25px;
+}
+.timezone{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.feels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.feels-like{
+    margin-left: 8px;
+}
+.feels span{
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+
+img{
+    width: 170px;
+}
+.temperature-description{
+    text-align: center;
+   margin-top:100px;
+   text-shadow:2px 2px 5px #131212 ;
+
+}
